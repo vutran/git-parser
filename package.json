@@ -7,5 +7,22 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Vu Tran <vu@vu-tran.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vutran/git-parser.git"
+  },
+  "keywords": [
+    "git",
+    "parser",
+    "git-parser",
+    "parse",
+    "cli"
+  ],
+  "bugs": {
+    "url": "https://github.com/vutran/git-parser/issues"
+  },
+  "homepage": "https://github.com/vutran/git-parser#readme"
 }
