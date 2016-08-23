@@ -1,5 +1,5 @@
 import test from 'ava';
-import utils from '../lib/utils';
+import utils from '../../lib/diff/utils';
 
 test('is a file header', t => {
   t.true(utils.isFileHeader('--- a/file'));

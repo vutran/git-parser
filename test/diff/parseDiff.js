@@ -1,5 +1,5 @@
 import test from 'ava';
-import parseDiff from '../lib/parseDiff';
+import parseDiff from '../../lib/diff/parseDiff';
 
 test('parses the given diff', t => {
   const diff = `

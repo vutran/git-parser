@@ -1,5 +1,5 @@
 import test from 'ava';
-import parseHunkHeader from '../lib/parseHunkHeader';
+import parseHunkHeader from '../../lib/diff/parseHunkHeader';
 
 test('parses the file header', t => {
   const diff = `
