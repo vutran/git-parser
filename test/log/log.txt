@@ -1,0 +1,29 @@
+commit 631083a46729c3cb6643f25bc9c089fdd8eae3a3 (HEAD -> master, origin/master, origin/HEAD)
+Author: Jonathan Yee <jonyeezs@users.noreply.github.com>
+Date:   Sat Oct 28 16:26:00 2017 +1000
+
+    :sparkles: add command to parse git status --porcelain (#3)
+
+commit b404bad1764b01fd3dc940f4cf0a181d28d51a81
+Author: Vu Tran <vu.tran@thermofisher.com>
+Date:   Tue Aug 23 08:26:23 2016 -0700
+
+    moved diff modules into sub-dir
+
+commit 315ee42130d3ed3158b47c1a5b8276529b251e59
+Author: Vu Tran <vu.tran@thermofisher.com>
+Date:   Tue Aug 23 08:16:15 2016 -0700
+
+    updated README
+
+commit 2cdf370081ca2e849b3b9791d81685e25815dc46 (tag: v0.2.0)
+Author: Vu Tran <vu.tran@thermofisher.com>
+Date:   Tue Aug 23 07:55:41 2016 -0700
+
+    0.2.0
+
+commit 5f18632ec02b63c9e9b93afd704557d2a02000f4
+Author: Vu Tran <vu.tran@thermofisher.com>
+Date:   Tue Aug 23 07:44:06 2016 -0700
+
+    renamed methods
