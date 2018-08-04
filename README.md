@@ -1,5 +1,7 @@
 # git-parser
 
+[![Travis](https://img.shields.io/travis/vutran/git-parser/master.svg?maxAge=2592000&style=flat-square)](https://travis-ci.org/vutran/git-parser) [![Coveralls branch](https://img.shields.io/coveralls/vutran/git-parser/master.svg?maxAge=2592000&style=flat-square)](https://coveralls.io/github/vutran/git-parser) [![license](https://img.shields.io/github/license/vutran/git-parser.svg?maxAge=2592000&style=flat-square)](LICENSE)
+
 > Parse Git output
 
 ## Install
