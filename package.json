@@ -10,7 +10,8 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "ava": "^0.16.0"
+    "ava": "^0.16.0",
+    "coveralls": "^3.0.2"
   },
   "repository": {
     "type": "git",
