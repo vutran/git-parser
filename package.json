@@ -4,14 +4,17 @@
   "description": "Parse Git output",
   "main": "index.js",
   "scripts": {
-    "test": "ava"
+    "test": "jest --coverage"
   },
   "author": "Vu Tran <vu@vu-tran.com>",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "ava": "^0.16.0",
-    "coveralls": "^3.0.2"
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.4.2",
+    "babel-preset-env": "^1.7.0",
+    "coveralls": "^3.0.2",
+    "jest": "^23.4.2"
   },
   "repository": {
     "type": "git",

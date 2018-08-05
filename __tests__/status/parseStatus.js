@@ -1,7 +1,10 @@
-import test from 'ava';
+/**
+ * @jest-environment node
+ */
+
 import { parseStatus } from '../../lib/index';
 
-test('parses the given status', t => {
+it('parses the given status', () => {
   const status = `## feature/git-status
 A  lib/foo/bar.js
  D utils.js
@@ -9,21 +12,21 @@ A  lib/foo/bar.js
   
   const parsed = parseStatus(status);
   
-  t.is(parsed.branch, 'feature/git-status');
+  expect(parsed.branch).toBe('feature/git-status');
   
-  t.deepEqual(parsed.statuses[0], {
+  expect(parsed.statuses[0]).toEqual({
     staged: true,
     fileName: 'lib/foo/bar.js',
     status: 'A'
   });
   
-  t.deepEqual(parsed.statuses[1], {
+  expect(parsed.statuses[1]).toEqual({
     staged: false,
     fileName: 'utils.js',
     status: 'D'
   });
   
-  t.deepEqual(parsed.statuses[2], {
+  expect(parsed.statuses[2]).toEqual({
     staged: false,
     fileName: 'config.json',
     status: '??'    

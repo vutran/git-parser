@@ -1,7 +1,10 @@
-import test from 'ava';
+/**
+ * @jest-environment node
+ */
+
 import parseBranch from '../../lib/status/parseBranch';
 
-test('parses the branch', t => {
+it('parses the branch', () => {
   const status = 
 `## feature/git-status
 R  lib/diff/parseHunkHeader.js -> lib/diff/parseHunkHeadter.js
@@ -9,14 +12,14 @@ R  lib/diff/parseHunkHeader.js -> lib/diff/parseHunkHeadter.js
  M lib/status/parseStagedStatus.js`;
   
   const parsed = parseBranch(status);
-  t.is(parsed, 'feature/git-status');
+  expect(parsed).toBe('feature/git-status');
 });
 
-test('defaults the branch name', t => {
+it('defaults the branch name', () => {
   const status = `R  lib/diff/parseHunkHeader.js -> lib/diff/parseHunkHeadter.js
  D lib/diff/utils.js
  M lib/status/parseStagedStatus.js`;
   
   const parsed = parseBranch(status);
-  t.is(parsed, 'default');
+  expect(parsed).toBe('default');
 });
